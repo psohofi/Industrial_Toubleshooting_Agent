@@ -1,0 +1,17 @@
+{
+  "TP2": {"type": "analog", "unit": "bar", "description": "Pressure on the compressor."},
+  "TP3": {"type": "analog", "unit": "bar", "description": "Pressure generated at the pneumatic panel."},
+  "H1": {"type": "analog", "unit": "bar", "description": "Pressure generated due to pressure drop when the discharge of the cyclonic separator filter occurs."},
+  "DV_pressure": {"type": "analog", "unit": "bar", "description": "Pressure drop generated when the towers discharge air dryers; zero indicates compressor operation under load."},
+  "Reservoirs": {"type": "analog", "unit": "bar", "description": "Downstream pressure of the reservoirs; should be close to TP3."},
+  "Motor_current": {"type": "analog", "unit": "A", "description": "Current of one phase of the three-phase motor; approximately 0 A off, 4 A offloaded, 7 A under load, 9 A startup."},
+  "Oil_temperature": {"type": "analog", "unit": "C", "description": "Oil temperature on the compressor."},
+  "COMP": {"type": "digital", "unit": null, "description": "Electrical signal of the compressor air-intake valve; active when there is no air intake, indicating off or offloaded operation."},
+  "DV_electric": {"type": "digital", "unit": null, "description": "Electrical signal controlling the compressor outlet valve; active under load and inactive when off or offloaded."},
+  "Towers": {"type": "digital", "unit": null, "description": "Electrical signal identifying the active air-drying/draining tower; inactive means tower one, active means tower two."},
+  "MPG": {"type": "digital", "unit": null, "description": "Electrical signal responsible for starting the compressor under load when APU pressure falls below 8.2 bar; it activates COMP."},
+  "LPS": {"type": "digital", "unit": null, "description": "Electrical signal that detects and activates when pressure drops below 7 bar."},
+  "Pressure_switch": {"type": "digital", "unit": null, "description": "Electrical signal that detects discharge in the air-drying towers."},
+  "Oil_Level": {"type": "digital", "unit": null, "description": "Electrical signal that activates when oil level is below expected values."},
+  "Caudal_impulse": {"type": "digital", "unit": null, "description": "Pulse count representing the absolute amount of air flowing from the APU to the reservoirs."}
+}

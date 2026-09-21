@@ -1,0 +1,8 @@
+{
+  "dataset_name": "MetroPT-3 Dataset",
+  "source": "UCI Machine Learning Repository",
+  "official_file": "MetroPT3(AirCompressor).csv",
+  "equipment": "Air Production Unit (APU) compressor on a metro train",
+  "project_use": "Evidence-grounded industrial troubleshooting and failure investigation",
+  "source_caveat": "The supplied PDF and current UCI metadata differ in their reported observation count/sampling description. The project therefore measures the actual timestamp cadence and row count during ingestion instead of assuming a fixed sampling rate."
+}
